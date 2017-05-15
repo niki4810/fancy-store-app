@@ -1,0 +1,11 @@
+/* Media image */
+.media-image-section {
+  display: block;
+  margin: 0 auto;
+  line-height: 0.8;
+  max-width: 480px;
+}
+
+.media-image-section .media-image {
+  width: 100%;
+}
