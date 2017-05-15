@@ -1,0 +1,8 @@
+/* Item Details */
+.item-details {
+ font-size: 14px;
+}
+
+.item-details .item-description {
+  margin: 0;
+}

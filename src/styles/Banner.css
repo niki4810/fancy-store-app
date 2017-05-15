@@ -1,0 +1,15 @@
+/* Banner */
+.banner {
+  color: #fff;
+  background: #ca4a4a;
+  width: 150px;
+  padding: 0px 5px;
+  text-align: center;
+  transform: rotate(45deg);
+  position: absolute;
+  right: -58px;
+  top: 10px;
+  z-index: 1;
+  font-weight: 500;
+  font-size: 15px;
+}

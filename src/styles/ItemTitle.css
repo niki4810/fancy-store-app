@@ -1,0 +1,14 @@
+/* Item title */
+.item-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1;
+  display: block;
+  max-width: 85%;
+}
+
+@media (min-width: 480px) {
+ .item-title {
+  font-size: 24px;
+ }
+}

@@ -1,0 +1,28 @@
+/* Header */
+.header {
+  height: 40px;
+  /*background: #2c8898;*/
+  background: #393B47;
+  position: fixed;
+  top:0;
+  left:0;
+  right:0;
+  z-index: 3;
+  border-bottom: 1px solid #FAF8F4;
+}
+
+@media(min-width: 768px) {
+  .header {
+    border-bottom: 0px;
+  }
+}
+
+.header-title {
+  font-size: 24px;
+  color: #fff;
+  text-align: center;
+  text-shadow: 1px 1px 2px #444;
+  position: absolute;
+  left: 50%;
+  margin-left: -64.33px;
+}

@@ -1,0 +1,35 @@
+/* related items */
+.related-items-list {
+  margin: 0;
+  width: auto;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+/*.related-items-list::-webkit-scrollbar {
+  height: 4px;
+  border-radius: 10px;
+  background: #ccc;
+}*/
+
+.related-item-tile {
+  display: inline-block;
+  cursor: pointer;
+  border: 1px solid rgba(191, 193, 192, 0.85);
+  padding: 5px;
+  margin: 5px 5px 5px 0;
+  width: 200px;
+}
+
+.related-item-title {
+  width: 90%;
+}
+
+.related-item-tile:hover {
+  border-color: #2c8898;
+}
+
+.related-item-image {
+  margin: 0 auto;
+  width: 100%;
+}
